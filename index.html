@@ -14,12 +14,13 @@
              <div class="name_container"> 
             <label for="name">Név:</label>
             <input type="text" name="name=" id="name"  placeholder="Írja be a nevét" required>
-        </div> 
+            </div> 
 
         <div class="addres_container">
              <label for="addres">Cím:</label>
         <input type="text" name="addres" id="addres"  placeholder="Írja be a cimét" required>
         </div>
+        
         <div class="phone_container">
             <label for="phone">Telefonszám:</label>
             <input type="tel" name="phone" id="phone" placeholder="pl.:+3630" required>
@@ -34,6 +35,48 @@
       
        
         <button type="submit">Elküld</button>
+
+        <div class="second-form-container">
+            <h2>További adatok</h2>
+                <h3>Melyik csoporba tartozik gyakorlaton?</h3>
+                <div class="csop">
+                    <input type="radio" name="csop" id="csoport1" value="csoport1">
+                    <label for="csoport1">1. csoport</label>
+                </div>
+                <div class="csop">
+                    <input type="radio" name="csop" id="csoport2" value="csoport2">
+                    <label for="csoport2">2. csoport</label>
+                </div>
+                <div class="csop">
+                    <input type="radio" name="csop" id="csoport3" value="csoport3">
+                    <label for="csoport3">3. csoport</label>
+
+                </div>
+                <h3>Melyik a kedvenc tárgya? <br>Válasszon akár több tárfyat is!</h3>
+                <div class="box">
+                    <input type="checkbox" id="matek" name="box" value="natematika">
+                    <label for="matek">Matematika</label>
+                    
+                </div>
+
+                <div class="box">
+                    <input type="checkbox" id="programozás" name="box" value="programozás">
+                    <label for="programozás">Progranozás</label>
+                </div>
+
+                <div class="box">
+                    <input type="checkbox" id="info" name="box" value="informatika">
+                    <label for="info">Informatoka</label>
+                </div>
+
+                <div class="box">
+                    <input type="checkbox" name="box" id="fizika" value="fizika">
+                    <label for="fizika">Fizika</label>
+                </div>
+        </div>
+
+
+
 
     </form>
 </body>

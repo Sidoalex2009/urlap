@@ -2,8 +2,8 @@
     margin-left: 20px;
     padding: 20px;
     border-radius: 20px;
-    width: 250px;
-    box-shadow: 0 0 10px rgba, (0 , 0, 0 , 0.1);
+    width: 250px;;
+    box-shadow: 0 0 10px rgba(0 , 0, 0 , 0.6);
 }
 
 .first-column-container label{
@@ -27,3 +27,26 @@
 .first-column-container h2 {
     text-align: center;
 }
+
+
+.second-form-container{
+    width: 250px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0);
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.second-form-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.second-form-container input {
+    padding: 8px;
+    border: 1px solid rgba(13, 131, 43, 0.356);
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 10px;
+}
+
